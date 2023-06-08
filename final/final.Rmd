@@ -39,63 +39,67 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 
 
 # Giriş
-  Malthus nüfusun gücünün insanlığın kendini ortaya koyma yani ihtiyaçlarını karşılama yeteneğinden katbekat büyük olduğunu savunur. Buna karşın dünyanın nüfusu her geçen gün
-artmaktadır. Bununla birlikte artan nüfusun getirdiği sorunlar da artmaktadır. Dünyaya
-gelen her yeni insan, hali hazırda dünyada bulunan diğer insanlar gibi, yaşamını idame ettirmek için gerekli olan temel ihtiyaçlar dışında bazı lüks ihtiyaçlara da sahiptir. Bu ihtiyaçlar
+/*
+  Malthus nüfusun gücünün insanlığın kendini ortaya koyma yani ihtiyaçlarını karsilama yeteneğinden katbekat büyük olduğunu savunur. Buna karşın dünyanın nüfusu her geçen gün
+artmaktadır. Bununla birlikte artan nüfusun getirdiği sorunlar da artmaktadır. Düyayagelen her yeni insan, hali hazırda dünyada bulunan diğer insanlar gibi, yaşamını idame ettirmek için gerekli olan temel ihtiyaçlar dışında bazı lüks ihtiyaçlara da sahiptir. Bu ihtiyaçlar
 bazen çok büyük bazen çok küçük olabilse de tümünün karşılanması her ülkede eşit şekilde
-mümkün olmaktadır. Dünyaya gelen her insan, kendisinin bulunduğu ortamdan daha farklı imkanlara sahip olan, başka ortamlarda bulunan insanlarla aynı koşullarda olamamakla
+mümkün olmaktadır. Dünyaya gelen her insan, kendisinin bulunduğu ortamdan daha farklı imkanlara sahip olan, başka ortamlarda bulunan insanlarla aynı koşullarda olamamakla
 birlikte; olayları ve durumları değerlendiriş açısında da farklılıklara sahiptir. Öyle ki benzer
-olay ve durumlara, kendisiyle aynı koşullara sahip olan fakat o koşulları avantaja çeviren kişilerle, aynı perspektiften bakamayabilir. Bu durumda onları suçlamak ne kadar doğrudur?
+olay ve durumlara, kendisiyle aynı koşullara sahip olan fakat o kosulları avantaja çeviren kisilerle, aynı perspektiften bakamayabilir. Bu durumda onları suçlamak ne kadar doğrudur?
 İnsanların başarı veya başarısızlığında içinde bulunduğu koşul ve mekanın etkisi var mıdır?
 Dünya nüfusunun ne kadarı, kalan kısma göre daha avantajlı bir yaşam sürmektedir?
-
+*/
 ## Çalışmanın Amacı
+/*
   Dünyadaki açlığın yıllara göre dağılımını ve bunun coğrafya ile ilişkisini incelemek. Açlığın
 nüfus ve nüfusun dağılımı ile bağlantısı hakkında araştırma yapıp, gelişmişlik düzeyi ve diğer
 etkenleri de hesaba katarak çözümleyerek, konu hakkında neler yapılabileceği hakkında akıl
 yürütmek.
+*/
 
 ## Literatür 
+/*
   Dünyadaki tüm canlılar türünün devamlılığını sağlamak amacıyla üreme yeteneğine sahiptir. Canlıların birçoğu, hatta insan hariç tümü, üreme üzerinde bir kontrol sağlayamamaktadır. Bundan dolayı doğa bu görevi üstlenir. Çeşitli yollarla artan canlı nüfusunun azalmasına önayak olur. Bundan dolayı üreme konusunda en tembel canlılardan biri olan insan hariç, herhangi bir canlının popülasyonunun fazlalığı gibi ekosistemi tehdit eden bir durum ortaya çıkmamıştır. Fakat söylediğim tehdit durumu insan nüfusu için geçerlidir. İnsan iradesi sayesinde üreme konusunda bir kontrole sahip olmasına karşın nüfusu gün geçtikçe daha çok artmaktadır. 
      Bu artış kirlilik, artan suçlar, işsizlik vb. birçok sorunu ortaya çıkarmaktadır.  Şüphesiz bu sorunlardan en büyüğü ve ciddisi ise yoksulluktur. “Dünya nüfusunun % 46’sı yani 2.800.000.000 insan, Dünya Bankası tarafından tespit edilen günlük 2 ABD doları olan, yoksulluk sınırının altında yaşamaktadır. 1.200.000.000 insan ise günlük 1 ABD doları olan açlık sınırının altında yaşamaya çalışmaktadır.”@inproceedings{tacs2012turkiye} Bu oranlara bakıldığında dünyanın yaklaşık olarak yarısının açlık tehlikesi ile karşı karşıya olduğu görülmektedir. Peki bunun nedeni dünyada yeteri kadar yiyecek olmamasından mı kaynaklıdır. Buna cevap olarak şu anlık net bir şekilde hayır denebilir. Dünyadaki toprakların yaklaşık %37’si yiyecek için kullanılmaktadır. Bu toprakların da çoğu Kuzey Amerika, Asya ve Doğu Avrupa’dadır. Bu bilgilere göre açlığın genelde Afrika kıtasında ve Ortadoğu’da yer aldığını düşünürsek, diğer bölgelerde üretilen yiyeceklerin bu bölgelere dağılımı gerekmektedir. Çünkü özellikle Afrika zaten aşın nüfuslanmayla mücadele etmektedir. Aşın nüfuslanma ise; herhangi bir ülke veya bölgede harekete geçirilebilmiş olan kaynakların orada yaşamakta olan nüfusa yetmemesi sonucu ekonomik ve sosyal bazı sorunların yaşanması durumuna denir. Bu sorunlardan biri de elbette ki esas konumuz olan açlıktır.
     Yiyeceğin yeterli üretimi hakkında yönelttiğim soruya, şu anlık hayır gibi bir cevap vermemin nedenine gelecek olursak çıkış yolumuz Malthus olur. Çünkü şu an dünyada üretilen gıda tüm dünyaya yetebilecek olmasına karşın, dağılımının olmaması sebebiyle israf edilmektedir. Fakat gelecekte konu dağılım değil, üretim olabilir çünkü Malthus der ki; “Nüfus, kısıtlanmadığında, geometrik oranla çoğalır. Geçim araçları ise, ancak aritmetik oranla artar…”@article{meek1953malthus,} Dolayısıyla insan nüfusu katlanarak artarken, gıda ise aritmetik bir şekilde artar. Bu durum ise halihazırda açlığın zaten yoğun olduğu dünyamız için, gelecekte daha büyük sıkıntıların ortaya çıkacağı yönündedir.
         Sonuç olarak dünyadaki açlık zaten yeterli değilmiş gibi gelecekte, popülasyonun artışıyla birlikte, bu sorunun daha da büyüyeceği yadsınamaz bir gerçektir. Şu anki açlığı bitirmeden de gelecek için önlem almanın elle tutulur bir yararının olmayacağı gibi, şu anki açlığı bitirmek için yapılan çalışmaları da sistematikleştirmek gerekmektedir. 
-
+*/
 
 # Veri 
 install.packages("readxl")
 install.packages("psych")
 
-Population sütununun ortalamasını aldık
+
+#Population sütununun ortalamasını aldık
 population_mean <- mean(data$Population1)
 population_mean
 
-Population sütununun standart sapmasını aldık
+#Population sütununun standart sapmasını aldık
 population_sd <- sd(data$Population)
 population_sd
 
-Population sütununun minimum değerini aldık
+#Population sütununun minimum değerini aldık
 population_min <- min(data$Population)
 population_min
 
 
-Population sütununun maksimum değerini aldık
+#Population sütununun maksimum değerini aldık
 population_max <- max(data$Population)
 population_max
 
-Percentage sütununun ortalamasını aldık
+#Percentage sütununun ortalamasını aldık
 percentage_mean <- mean(data$Percentage)
 percentage_mean
 
-Percentage sütununun standart sapmasını aldık
+#Percentage sütununun standart sapmasını aldık
 percentage_sd <- sd(data$Percentage)
 percentage_sd
 
-Percentage sütununun maksimum değerini aldık
+#Percentage sütununun maksimum değerini aldık
 percentage_max <- max(data$Percentage)
 percentage_max
 
-Percentage sütununun minimum değerini aldık
+#Percentage sütununun minimum değerini aldık
 percentage_min <- min(data$Percentage)
 percentage_min
 
@@ -106,18 +110,19 @@ install.packages("psych")
 library(readxl)
 data <- read_excel("C:/Users/zelih/Desktop/finalsinav/data/global_population.xlsx")
 
-Korelasyon testini yapmak için psych paketini yükledik
+#Korelasyon testini yapmak için psych paketini yükledik
 library(psych)
 
-Percentage ve Population1 sütunlarını alarak korelasyon testini yaptık
+#Percentage ve Population1 sütunlarını alarak korelasyon testini yaptık
 cor_test_result <- cor.test(data$Percentage, data$Population1)
 cor_test_result
 
 
 # Sonuç
+/*
   Aslında bu çalışmamda sistem kaynaklı olarak istediğim cevapları alamadığımı söyleyebilirim. Araştırmalarım doğrultusunda popülasyon ve yoksulluk arasında dolaylı da olsa bir bağlantı olduğunu net bir şekilde dile getirebilirim. Çünkü Malthus'un teorisinde olduğu gibi gıdaların aritmetik ve nüfusun da katlanarak arttığını düşünüyorum. Bu doğrultuda halihazırda var olan ve gelecekte de var olacak gıdaların ne şu anki nüfusa ne de bizi çok net bir şekilde bekleyen hızlı nüfus artışına yeteceğini düşünüyorum. Fakat bu açlığın nedeni başta da söylediğim gibi direkt nüfus değil. Açlığın nedenleri adaletsizlikle başlayıp savurganlığı da takip eder ve nüfusun artışına değinir. Sadece nüfusun artışı bu açlığı etkileyen ve durumu daha da kötüleştiren etkenlerden biri. Dünyadaki nüfus artışının  yoğunlaştığı noktalara bakıldığında, kontrolsüz doğumun en fazla olduğu yerler olan Afrika ve Güneydoğu Asya da bunu doğrular niteliktedir. Bu doğrultuda açlık ve nüfus arasında dolaylı olarak aynı yönlü bir bağ vardır. Yani açlığın artışı nüfusun artışını takip eder. 
   Bu sebepten ötürü ödevimdeki "Yöntem ve Veri Analizi" kısmında Korelasyon yönetimini kullandım fakat R programının yazdığım kodlar için bir çıktı oluşturmamasından kaynaklı olarak bunu açık bir şekilde gösteremedim. Yine de kullandığım kodları ödevimin gerekli alanlarına yazarak kendimi açıklamak istedim.
-
+*/
 **Kaynakça bölümü Rmarkdown tarafından otomatik olarak oluşturulmaktadır. Taslak dosyada Kaynakça kısmında herhangi bir değişikliğe gerek yoktur.** 
 
 **_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
